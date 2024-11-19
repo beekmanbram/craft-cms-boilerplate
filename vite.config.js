@@ -35,6 +35,13 @@ export default ({ command }) => ({
         port: 3000,
         strictPort: true
     },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                quietDeps: true
+            }
+        }
+    },
     plugins: [
         ViteRestart({
             reload: [
