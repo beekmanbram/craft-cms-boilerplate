@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="no-js" lang="{{ craft.app.language|slice(0,2) }}">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {# CSS / JS #}
+    {{ craft.vite.script('/src/index.js', false) }}
+
+    {# Favicons #}
+    {{ craft.vite.inline('@webroot/dist/favicons/webapp.html') }}
+
+</head>
+
+<body>
+
+    {% block body %}
+
+    {% endblock %}
+
+</body>
+
+</html>

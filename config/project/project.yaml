@@ -1,0 +1,43 @@
+dateModified: 1732015974
+email:
+  fromEmail: hello@brambeekman.dev
+  fromName: 'Bram Beekman | Boilerplate Bootstrap Vite'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    1c8ec97d-8426-481a-8ef6-4721fa55e250: Home # Home
+    1e620ab1-f84b-4214-b270-e90b30093b54: Home # Home
+    4417a851-73ed-4397-aaec-e92d6a27dadc: 'Bram Beekman | Boilerplate Bootstrap Vite' # Bram Beekman | Boilerplate Bootstrap Vite
+    75689623-7b17-47e2-98a0-9e8a7c838e19: Simple # Simple
+    b2c22667-313d-444b-8050-bcb959dadc79: 'Bram Beekman | Boilerplate Bootstrap Vite' # Bram Beekman | Boilerplate Bootstrap Vite
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: 8VEVVQETWHCZ1HOXLNMKHWPC
+    schemaVersion: 2.1.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Bram Beekman | Boilerplate Bootstrap Vite'
+  schemaVersion: 5.5.0.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

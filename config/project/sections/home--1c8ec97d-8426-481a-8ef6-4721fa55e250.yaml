@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 1e620ab1-f84b-4214-b270-e90b30093b54 # Home
+handle: home
+maxAuthors: 1
+name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  b2c22667-313d-444b-8050-bcb959dadc79: # Bram Beekman | Boilerplate Bootstrap Vite
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/home.twig
+    uriFormat: __home__
+type: single
