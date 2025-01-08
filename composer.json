@@ -3,10 +3,9 @@
   "prefer-stable": true,
   "require": {
     "craftcms/ckeditor": "4.4.0",
-    "craftcms/cms": "^5.0.0",
+    "craftcms/cms": "5.5.9",
     "nystudio107/craft-minify": "5.0.0",
     "nystudio107/craft-vite": "5.0.1",
-    "verbb/navigation": "3.0.5",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

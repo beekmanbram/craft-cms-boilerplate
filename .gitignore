@@ -28,8 +28,8 @@ vendor
 storage/*
 !storage/rebrand
 !storage/backups
-license.key
-license.key.*
+!license.key
+!license.key.*
 test.twig
 
 # Node / npm

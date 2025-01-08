@@ -1,4 +1,4 @@
-dateModified: 1732015974
+dateModified: 1736345639
 email:
   fromEmail: hello@brambeekman.dev
   fromName: 'Bram Beekman | Boilerplate Bootstrap Vite'
@@ -19,11 +19,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  navigation:
-    edition: standard
-    enabled: true
-    licenseKey: 8VEVVQETWHCZ1HOXLNMKHWPC
-    schemaVersion: 2.1.0
   vite:
     edition: standard
     enabled: true
